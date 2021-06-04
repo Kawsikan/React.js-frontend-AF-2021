@@ -35,25 +35,6 @@ export default class Vehicles extends Component {
         })
     }
 
-
-    // render() {
-    //     return (
-    //         <div className="container">
-    //             <h1>Courses</h1>
-    //             {this.state.vehicles.length > 0 && this.state.vehicles.map((item, index) => (
-    //                 <div key={index} className="card mb-3">
-    //                     <div className="p-3" onClick={e => this.navigateSubjectPage(e, item._id)}>
-    //                         <h4>Course Name: {item.code}</h4>
-    //                         <h5>Lecture: {item.model}</h5>
-    //                         <h5>Code: {item.type}</h5>
-    //                         <h6>Passmark: {item.name}</h6>
-    //                     </div>
-    //                 </div>
-    //             ))}
-    //         </div>
-    //     )
-    // }
-
     render() {
         return (
             <div className="container">
