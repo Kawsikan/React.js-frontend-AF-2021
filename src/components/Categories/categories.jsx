@@ -29,6 +29,7 @@ class Categories extends Component {
             <div className="p-3" onClick={e => this.navigateSubjectPage(e, item._id)}> 
               <h4>Category: {item.name}</h4>
               <h5>Description: {item.description}</h5>
+              <h5>Amount: {item.amount}</h5>
             </div>
           </div>
         ))}

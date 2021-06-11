@@ -24,6 +24,9 @@ class Navbar extends React.Component {
                             <li className="nav-item">
                                 <a className="nav-link" href="/create-vehicle">Insert Vehicle</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/calculate-charge">Calculate Charge</a>
+                            </li>                           
                         </ul>
                     </div>
                 </div>
